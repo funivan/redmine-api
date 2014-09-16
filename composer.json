@@ -1,0 +1,23 @@
+{
+  "name": "fiv/redmine-api",
+  "type": "library",
+  "description": "Redmine API client",
+  "homepage": "https://github.com/funivan/redmine-api",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Shcherbak",
+      "email": "dev@funivan.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*",
+    "kbsali/redmine-api": "1.5.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Fiv\\Redmine\\": "src/"
+    }
+  }
+}
